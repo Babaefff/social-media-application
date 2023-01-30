@@ -157,7 +157,7 @@ export const Form = () => {
                   onChange={handleChange}
                   value={values.location}
                   name="location"
-                  error={Boolean(touched.location) && Boolean(errors.lastName)}
+                  error={Boolean(touched.location) && Boolean(errors.location)}
                   helperText={touched.location && errors.location}
                   sx={{ gridColumn: "span 4" }}
                 />

@@ -18,7 +18,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
   const primaryDark = palette.primary.dark;
   const main = palette.neutral.main;
   const medium = palette.neutral.medium;
-  const baseUrl = process.env.BASE_URL;
+
 
 
   const isFriend = Array.from(friends).find((friend) => friend._id === friendId);

@@ -7,7 +7,7 @@ const PostsWidget = ({ userId, isProfile = false }) => {
   const dispatch = useDispatch();
   const posts = useSelector((state) => state.posts);
   const token = useSelector((state) => state.token);
-  const baseUrl = process.env.BASE_URL;
+
 
   const getPosts = async () => {
     const response = await fetch("https://socialiaze.herokuapp.com/posts", {

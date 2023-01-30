@@ -2,7 +2,6 @@ import { Box } from "@mui/material";
 
 const UserImage = ({ image, size = "60px" }) => {
   console.log(image);
-  const baseUrl = process.env.BASE_URL;
 
   return (
     <Box width={size} height={size}>

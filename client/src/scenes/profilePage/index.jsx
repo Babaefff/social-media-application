@@ -10,7 +10,6 @@ import UserWidget from "scenes/widgets/UserWidget";
 
 const ProfilePage = () => {
   const [user, setUser] = useState(null);
-  const baseUrl = process.env.BASE_URL;
 
 
   const { userId } = useParams();

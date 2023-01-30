@@ -10,7 +10,6 @@ const FriendListWidget = ({ userId }) => {
   const { palette } = useTheme();
   const token = useSelector((state) => state.token);
   const friends = useSelector((state) => state.user.friends);
-  const baseUrl = process.env.BASE_URL;
 
 
   const getFriends = async () => {
